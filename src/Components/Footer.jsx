@@ -22,7 +22,7 @@ export default function Footer() {
           <Typography variant="h6" color="text.primary" gutterBottom>
             Follow Us
           </Typography>
-          <Link href="www.linkedin.com/in/guido-toritto" color="inherit">
+          <Link href="https://www.linkedin.com/in/guido-toritto" color="inherit">
             <LinkedIn />
           </Link>
           <Link
@@ -32,7 +32,7 @@ export default function Footer() {
           >
             <GitHub />
           </Link>
-          <Link href="guidotoritto@outlook.com" color="inherit">
+          <Link href="mailto:guidotoritto@outlook.com" color="inherit">
             <EmailOutlined />
           </Link>
         </Box>

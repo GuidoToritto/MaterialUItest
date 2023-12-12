@@ -1,4 +1,4 @@
-import { Box, Typography, styled } from "@mui/material";
+import { Box, Divider, Typography, styled } from "@mui/material";
 
 const Img = styled("img")({
   width: 150,
@@ -16,7 +16,6 @@ export const Header = () => {
           display: "flex",
           alignItems: "center",
           overflow: "hidden",
-          pt: "25px",
         }}
       >
         <Img
@@ -29,11 +28,13 @@ export const Header = () => {
           </Typography>
           <Typography variant="h7">Frontend Developer</Typography>
           <Typography sx={{ fontSize: "12px" }}>
-            Buenos Aires, Argentina GMT -3 
+            Buenos Aires, Argentina GMT -3
           </Typography>
         </Box>
       </Box>
       <Box>
+        <br />
+        <Divider />
         <Typography>
           <p>
             I am a Frontend Developer with 2 years of experience in this role.
