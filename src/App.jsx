@@ -26,6 +26,7 @@ function MyApp() {
         color: "text.primary",
         borderRadius: 1,
         pt: 1,
+       
       }}
     >
       <IconButton
@@ -68,10 +69,10 @@ export default function ToggleColorMode() {
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Container maxWidth="xs" sx={{ boxShadow: 1, pb: 2 }}>
+        <Container maxWidth="xs" sx={{ boxShadow: 1, pb: 2,  transition: "background-color 2s, color 2s", }}>
           <MyApp />
           <Header />
-          <Main />
+          <Main/>
           <br />
           <Divider />
           <Footer />
