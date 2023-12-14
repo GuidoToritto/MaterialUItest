@@ -55,7 +55,7 @@ export default function Main() {
             id="panel2bh-header"
           >
             <Typography sx={{ width: "100%", flexShrink: 0 }}>
-              GNV Group <br /> Oct-2022/May-2022
+              GNV Group <br /> Oct-2022/May-2023
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
