@@ -19,7 +19,7 @@ export const Header = () => {
         }}
       >
         <Img
-          src="https://media.licdn.com/dms/image/D4D03AQGzVcsuCGOYwg/profile-displayphoto-shrink_800_800/0/1702312273727?e=1707955200&v=beta&t=bHdNS9iN8nZqqQFegtnfSYuxLTdzvyqrQI-B6xCnUts"
+          src="https://media.licdn.com/dms/image/D4D03AQHBMZHDZfOjFA/profile-displayphoto-shrink_800_800/0/1702865394068?e=1708560000&v=beta&t=EpKYBdbbIhKigG8_bvKsXX6H3sQATm88U0BQbiUBuo8"
           alt="random"
         />
         <Box textAlign="end" sx={{ flexGrow: 1 }}>
