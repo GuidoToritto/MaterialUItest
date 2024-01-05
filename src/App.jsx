@@ -4,7 +4,7 @@ import Box from "@mui/material/Box";
 import { useTheme, ThemeProvider, createTheme } from "@mui/material/styles";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
-import { Button, Container, CssBaseline, Divider } from "@mui/material";
+import { Container, CssBaseline, Divider } from "@mui/material";
 import { Header } from "./Components/Header";
 import Main from "./Components/Main";
 import Footer from "./Components/Footer";
