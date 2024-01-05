@@ -4,42 +4,39 @@ import Box from "@mui/material/Box";
 import { useTheme, ThemeProvider, createTheme } from "@mui/material/styles";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
-
-import { Container, CssBaseline, Divider } from "@mui/material";
+import { Button, Container, CssBaseline, Divider } from "@mui/material";
 import { Header } from "./Components/Header";
 import Main from "./Components/Main";
 import Footer from "./Components/Footer";
+
 
 const ColorModeContext = React.createContext({ toggleColorMode: () => {} });
 
 function MyApp() {
   const theme = useTheme();
   const colorMode = React.useContext(ColorModeContext);
+
   return (
     <Box
       sx={{
         display: "flex",
-        width: "100%",
-        alignItems: "center",
         justifyContent: "end",
+        width: "100%",   
         bgcolor: "background.default",
         color: "text.primary",
         borderRadius: 1,
         pt: 1,
-       
       }}
     >
-      <IconButton
-        sx={{ ml: 1 }}
-        onClick={colorMode.toggleColorMode}
-        color="inherit"
-      >
+      <IconButton onClick={colorMode.toggleColorMode} color="inherit">
         {theme.palette.mode === "dark" ? (
           <Brightness7Icon />
         ) : (
           <Brightness4Icon />
         )}
       </IconButton>
+
+      
     </Box>
   );
 }
@@ -69,13 +66,23 @@ export default function ToggleColorMode() {
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Container maxWidth="xs" sx={{ boxShadow: 1, pb: 2,  transition: "background-color 2s, color 2s", }}>
-          <MyApp />
-          <Header />
-          <Main/>
-          <br />
-          <Divider />
-          <Footer />
+        <Container
+          maxWidth="xs"
+          sx={{
+            boxShadow: 1,
+            pb: 2,
+            transition: "background-color 2s, color 2s",
+          }}
+        >
+  
+            
+            <MyApp />
+            <Header />
+            <Main />
+            <br />
+            <Divider />
+            <Footer />
+         
         </Container>
       </ThemeProvider>
     </ColorModeContext.Provider>

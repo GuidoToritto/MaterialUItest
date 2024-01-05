@@ -16,7 +16,7 @@ export default function Main() {
   return (
     <>
       <Typography variant="h5" py="10px">
-        Experience
+        Experiencia
       </Typography>
 
       <Box>
@@ -31,18 +31,19 @@ export default function Main() {
             id="panel1bh-header"
           >
             <Typography sx={{ width: "100%", flexShrink: 0 }}>
-              Casedif Construction Company <br /> Feb-2022/Oct-2022
+              Empresa de construcción Casedif <br /> Feb-2022/Oct-2022
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              I worked at the construction company Casedif as a web developer,
-              working closely with graphic designers and professionals
-              specialized in the field of e-commerce and home selling systems.
-              This experience was not only surprising and enriching, but also
-              played a fundamental role in boosting my confidence in interacting
-              with clients. I learned how to reassure them, giving them the
-              certainty that they would receive an amazing result.
+              Trabajé en la empresa de construcción Casedif como desarrollador
+              web, colaborando estrechamente con diseñadores gráficos y
+              profesionales especializados en el campo del comercio electrónico
+              y los sistemas de venta a domicilio. Esta experiencia no sólo fue
+              sorprendente y enriquecedora, sino que también fundamental para
+              aumentar mi confianza a la hora de interactuar con los clientes.
+              Aprendí a tranquilizarlos, dándoles la la certeza de que
+              recibirían un resultado asombroso.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -57,21 +58,21 @@ export default function Main() {
             id="panel2bh-header"
           >
             <Typography sx={{ width: "100%", flexShrink: 0 }}>
-              GNV Group <br /> Oct-2022/May-2023
+              Grupo GNV <br /> Oct-2022/May-2023
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              I have developed significant Frontend skills, acquiring proficiency
-              in forms handling, service integration, advanced JavaScript
-              functions, as well as the implementation of security measures for
-              dynamic routes and paths. These skills have been honed to
-              optimally adapt to different screen sizes. In addition, my
-              creative skills have grown significantly in designing user
-              interfaces, bringing innovation and aesthetics to the user
-              experience. I have also improved the overall usability, constantly
-              looking for ways to optimize the user interaction with the
-              application.
+              He desarrollado importantes habilidades Frontend, adquiriendo
+              competencia en el manejo de formularios, la integración de
+              servicios así como la implementación de medidas de seguridad para
+              rutas y caminos dinámicos. Estos conocimientos se han
+              perfeccionado para adaptarse de forma óptima a los diferentes
+              tamaños de pantalla. Además, mis Además, mi capacidad creativa ha
+              crecido considerablemente usuario, aportando innovación y estética
+              a la experiencia usuario. También he mejorado la usabilidad
+              general, buscando constantemente de optimizar la interacción del
+              usuario con la aplicación. aplicación.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -87,17 +88,17 @@ export default function Main() {
             id="panel4bh-header"
           >
             <Typography sx={{ width: "100%", flexShrink: 0 }}>
-              Freelancer Work <br /> May-2023/Now
+              Freelance <br /> May-2023/Ahora
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              During an extensive period, I have been cultivating my career as a
-              freelance professional, carrying out significant projects for
-              several companies, including construction companies, plastic
-              artists and musical DJ artists. In addition, I have collaborated
-              in the creation of tables for databases for companies in various
-              sectors, highlighting, for example, my contribution to Dunlop.
+              Durante un extenso periodo, he venido cultivando mi carrera como
+              profesional autónomo, realizando importantes proyectos para varias
+              empresas, entre ellas constructoras, artistas artistas plásticos y
+              DJ musicales. Además, he colaborado en la creación de tablas para
+              bases de datos de empresas de diversos sectores, destacando, por
+              ejemplo, mi aportación a Dunlop.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -125,13 +126,15 @@ export default function Main() {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              I developed this project using React and consuming APIs from The
-              Cocktail DB. I simulated the feed of a cocktail page on Instagram,
-              with a passionate and cosmopolitan design. By clicking on each
-              drink, you can visualize the ingredients in detail.
+              Desarrollé este proyecto usando React y consumiendo APIs de The
+              Cocktail DB. Simulé el feed de una página de cócteles en
+              Instagram, con un diseño apasionado y cosmopolita. Al hacer clic
+              en cada bebida, puedes visualizar los ingredientes en detalle.
             </Typography>
             <br />
-            <Button href="https://be-my-desire-project.vercel.app/">Demo</Button>
+            <Button href="https://be-my-desire-project.vercel.app/">
+              Demo
+            </Button>
           </AccordionDetails>
         </Accordion>
         <Accordion
@@ -156,7 +159,9 @@ export default function Main() {
             </Typography>
             <br />
             <Button href="https://your-band.vercel.app/">Demo version01</Button>
-            <Button href="https://your-band02-5ku2.vercel.app/">Demo version02</Button>
+            <Button href="https://your-band02-5ku2.vercel.app/">
+              Demo version02
+            </Button>
           </AccordionDetails>
         </Accordion>
 
@@ -176,12 +181,14 @@ export default function Main() {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              Passionate about 3D design, I developed a website with React.js
-              and CSS styling to showcase my artwork and designs in the
-              three-dimensional realm.
+              Soy un apasionado del diseño 3D, desarrollé un sitio web con
+              React.js y estilo CSS para mostrar mis obras de arte y diseños en
+              el tridimensional.
             </Typography>
             <br />
-            <Button href="https://website2023-roan.vercel.app/home">Demo</Button>
+            <Button href="https://website2023-roan.vercel.app/home">
+              Demo
+            </Button>
           </AccordionDetails>
         </Accordion>
 
@@ -201,9 +208,9 @@ export default function Main() {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              I collaborated with DJ Anita B Queen to create a simple website
-              that informs about her tour, as well as having a login function
-              for merchandise purchase. Implemented with HTML, CSS and
+              Colaboré con DJ Anita B Queen para crear un sitio web sencillo que
+              informa sobre su gira, así como tener una función de inicio de
+              sesión para la compra de mercancía. Implementado con HTML, CSS y
               JavaScript.
             </Typography>
             <br />
@@ -227,13 +234,16 @@ export default function Main() {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              I realized two projects using React and different technologies
-              such as Material-UI and CSS. Both consume several APIs to provide
-              real-time weather information. By entering the city name in the
-              input field, you can get updated weather data.
+              Realicé dos proyectos usando React y diferentes tecnologías como
+              Material-UI y CSS. Ambos consumen varias APIs para proporcionar
+              información meteorológica en tiempo real. Introduciendo el nombre
+              de la ciudad en el campo de entrada, puedes obtener datos
+              meteorológicos actualizados.
             </Typography>
             <br />
-            <Button href="https://weather-project-smoky.vercel.app/">Demo</Button>
+            <Button href="https://weather-project-smoky.vercel.app/">
+              Demo
+            </Button>
           </AccordionDetails>
         </Accordion>
 
@@ -253,12 +263,14 @@ export default function Main() {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              My first project in React, Fastershoe is a simple page that offers
-              a catalog of sneakers for purchase, with the ability to select the
-              desired size.
+              Mi primer proyecto en React, Fastershoe es una sencilla página que
+              ofrece un catálogo de zapatillas para comprar, con la posibilidad
+              de seleccionar la talla deseada.
             </Typography>
             <br />
-            <Button href="https://entrega-final-react-guido-toritto-hqg8.vercel.app">Demo</Button>
+            <Button href="https://entrega-final-react-guido-toritto-hqg8.vercel.app">
+              Demo
+            </Button>
           </AccordionDetails>
         </Accordion>
       </Box>
@@ -267,34 +279,34 @@ export default function Main() {
 
       <div>
         <Typography variant="h5" textAlign="start" py="10px">
-          Skills
+          Habilidades
         </Typography>
         <Typography>
-          <span style={{ fontWeight: "bold" }}>Programming Languages:</span>{" "}
-          Advanced: CSS/Bootstrap/Tailwind/Bulma.
+          <span style={{ fontWeight: "bold" }}>Lenguajes de programación:</span>{" "}
+          Avanzado: CSS/Bootstrap/Tailwind/Bulma.
         </Typography>
         <Typography>
-          <span style={{ fontWeight: "bold" }}>Framework tools:</span> React.Js
+          <span style={{ fontWeight: "bold" }}>Framework:</span> React.Js
         </Typography>
         <Typography>
-          <span style={{ fontWeight: "bold" }}>Tools:</span> Git, Adobe
+          <span style={{ fontWeight: "bold" }}>Herramientas:</span> Git, Adobe
           Photoshop, Adobe Illustrator, Figma.
         </Typography>
       </div>
       <div>
         <Typography variant="h5" textAlign="start" py="10px">
-          Education
+          Educación
         </Typography>
         <Typography>
           <span style={{ fontWeight: "bold" }}>
-            Art University of Argentina -
+           Universidad de Arte de Argentina
           </span>{" "}
-          Buenos Aires, Argentina. Plastic Arts
+          Buenos Aires, Argentina. Artes plásticas
         </Typography>
       </div>
       <div>
         <Typography variant="h5" textAlign="start" py="10px">
-          Certifications
+          Certificaciones
         </Typography>
         <Typography>
           <span style={{ fontWeight: "bold" }}>Frontend Developer -</span>{" "}

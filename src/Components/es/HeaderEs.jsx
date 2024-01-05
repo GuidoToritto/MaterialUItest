@@ -1,5 +1,5 @@
 import { Box, Divider, Typography, styled } from "@mui/material";
-import portraid from "../Components/portraid.jpg"
+import Portraid from "../img/portraid.jpg"
 
 const Img = styled("img")({
   width: 150,
@@ -20,7 +20,8 @@ export const Header = () => {
         }}
       >
         <Img
-          src={portraid}
+          src={Portraid}
+
           alt="random"
         />
         <Box textAlign="end" sx={{ flexGrow: 1 }}>
@@ -38,13 +39,13 @@ export const Header = () => {
         <Divider />
         <Typography>
           <p>
-            I am a Frontend Developer with 2 years of experience in this role.
-            With knowledge in UX/UI Design (Figma Prototyping), HTML/CSS, React,
-            Javascript, Bootstrap/Tailwind/Bulma, SASS and GIT-GITHUB.
-            Passionate about creating engaging and functional web experiences, I
-            collaborated on web development projects and gained skills in user
-            interface design and implementation, I have worked with various
-            projects as a freelancer.
+          Soy Desarrollador Frontend con 2 años de experiencia en el puesto.
+            Con conocimientos en Diseño UX/UI (Figma Prototyping), HTML/CSS, React,
+            Javascript, Bootstrap/Tailwind/Bulma, SASS y GIT-GITHUB.
+            Apasionado por la creación de experiencias web atractivas y funcionales, he
+            colaboré en proyectos de desarrollo web y adquirí habilidades en diseño e
+            diseño de interfaz de usuario y la aplicación, he trabajado con varios
+            proyectos como freelancer.
           </p>
         </Typography>
       </Box>
