@@ -35,7 +35,7 @@ export default function Main() {
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>
+            <Typography >
               I worked at the construction company Casedif as a web developer,
               working closely with graphic designers and professionals
               specialized in the field of e-commerce and home selling systems.
@@ -43,7 +43,8 @@ export default function Main() {
               played a fundamental role in boosting my confidence in interacting
               with clients. I learned how to reassure them, giving them the
               certainty that they would receive an amazing result.
-            </Typography>
+            </Typography > 
+            <Typography style={{fontWeight: 'bold'}}>Scrips: JavaScript · HTML · CSS</Typography>
           </AccordionDetails>
         </Accordion>
         <Accordion
@@ -62,16 +63,19 @@ export default function Main() {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              I have developed significant Frontend skills, acquiring proficiency
-              in forms handling, service integration, advanced JavaScript
-              functions, as well as the implementation of security measures for
-              dynamic routes and paths. These skills have been honed to
-              optimally adapt to different screen sizes. In addition, my
-              creative skills have grown significantly in designing user
+              I have developed significant Frontend skills, acquiring
+              proficiency in forms handling, service integration, advanced
+              JavaScript functions, as well as the implementation of security
+              measures for dynamic routes and paths. These skills have been
+              honed to optimally adapt to different screen sizes. In addition,
+              my creative skills have grown significantly in designing user
               interfaces, bringing innovation and aesthetics to the user
               experience. I have also improved the overall usability, constantly
               looking for ways to optimize the user interaction with the
               application.
+            </Typography>
+            <Typography style={{fontWeight: 'bold'}}>
+              Scripts: React.js · Git · GitHub · JavaScript · HTML · CSS
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -98,6 +102,9 @@ export default function Main() {
               artists and musical DJ artists. In addition, I have collaborated
               in the creation of tables for databases for companies in various
               sectors, highlighting, for example, my contribution to Dunlop.
+            </Typography>
+            <Typography style={{fontWeight: 'bold'}}>
+              Scripts: SolidWorks · Tailwind CSS · Material-UI · React.js · Git
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -131,7 +138,9 @@ export default function Main() {
               drink, you can visualize the ingredients in detail.
             </Typography>
             <br />
-            <Button href="https://be-my-desire-project.vercel.app/">Demo</Button>
+            <Button href="https://be-my-desire-project.vercel.app/">
+              Demo
+            </Button>
           </AccordionDetails>
         </Accordion>
         <Accordion
@@ -156,7 +165,9 @@ export default function Main() {
             </Typography>
             <br />
             <Button href="https://your-band.vercel.app/">Demo version01</Button>
-            <Button href="https://your-band02-5ku2.vercel.app/">Demo version02</Button>
+            <Button href="https://your-band02-5ku2.vercel.app/">
+              Demo version02
+            </Button>
           </AccordionDetails>
         </Accordion>
 
@@ -181,7 +192,9 @@ export default function Main() {
               three-dimensional realm.
             </Typography>
             <br />
-            <Button href="https://website2023-roan.vercel.app/home">Demo</Button>
+            <Button href="https://website2023-roan.vercel.app/home">
+              Demo
+            </Button>
           </AccordionDetails>
         </Accordion>
 
@@ -233,7 +246,9 @@ export default function Main() {
               input field, you can get updated weather data.
             </Typography>
             <br />
-            <Button href="https://weather-project-smoky.vercel.app/">Demo</Button>
+            <Button href="https://weather-project-smoky.vercel.app/">
+              Demo
+            </Button>
           </AccordionDetails>
         </Accordion>
 
@@ -258,7 +273,9 @@ export default function Main() {
               desired size.
             </Typography>
             <br />
-            <Button href="https://entrega-final-react-guido-toritto-hqg8.vercel.app">Demo</Button>
+            <Button href="https://entrega-final-react-guido-toritto-hqg8.vercel.app">
+              Demo
+            </Button>
           </AccordionDetails>
         </Accordion>
       </Box>
